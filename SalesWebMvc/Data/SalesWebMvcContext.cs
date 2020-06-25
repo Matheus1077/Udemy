@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Models;
 
-namespace SalesWebMvc.Data
+namespace SalesWebMvc.Models // Antes era Data, estava diferente do curso
 {
     public class SalesWebMvcContext : DbContext
     {
