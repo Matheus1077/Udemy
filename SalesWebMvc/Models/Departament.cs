@@ -5,7 +5,7 @@ namespace SalesWebMvc.Models
 {
     public class Departament
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
 
         public ICollection<Seller> Sellers { get; set; } = new List<Seller>();
@@ -16,7 +16,7 @@ namespace SalesWebMvc.Models
 
         public Departament(int id, string name)
         {
-            this.id = id;
+            this.Id = id;
             Name = name;
         }
         public void AddSeller(Seller seller)
